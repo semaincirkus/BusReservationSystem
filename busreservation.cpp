@@ -5,11 +5,11 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-#define hostName "localhost"
-#define userName "postgres"
-#define password "1234"
-#define databaseName "bus"
-#define database "QPSQL"
+#define database "database"
+#define hostName "hostName"
+#define userName "userName"
+#define password "password"
+#define databaseName "databaseName"
 
 
 BusReservation* BusReservation::instance = nullptr;
