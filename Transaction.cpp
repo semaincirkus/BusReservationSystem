@@ -1,11 +1,11 @@
 #include "Transaction.h"
 #include "ui_Transaction.h"
 
-#define database "QPSQL"
-#define hostName "localhost"
-#define userName "postgres"
-#define password "1234"
-#define databaseName "bus"
+#define database "database"
+#define hostName "hostName"
+#define userName "userName"
+#define password "password"
+#define databaseName "databaseName"
 
 Transaction::Transaction(QWidget *parent) :
     QWidget(parent),
